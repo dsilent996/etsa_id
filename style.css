@@ -106,6 +106,14 @@ p, li{
     background: linear-gradient(0deg, rgba(120,148,39,1) 0%, rgba(142,173,53,1) 86%); 
 }
 
+.hero-section {
+    background: url('images/new-hero.png');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .list-item {
     position: relative;
     padding-left: 30px; /* Beri jarak dari kiri agar tidak bertumpuk */
