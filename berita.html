@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-white">
-      <nav class="navbar navbar-expand-lg bg-white navbar-white border-bottom">
+    <nav class="navbar navbar-expand-lg navbar-white border-bottom py-3 fixed-top bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="logo/logo-green-side.png" width="100" alt="" srcset="" />
+          <img src="logo/logo-green-side.png" width="100" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -57,7 +57,7 @@
     </nav>
 
     <section id="profile">
-      <div class="container mb-5 py-5">
+      <div class="container my-5 py-5">
         <div class="p-4 p-md-5 mb-4 rounded bg-light shadow border-top">
           <div class="col-md-6 px-0">
             <h1 class="fs-1 fw-bold text-purple">
@@ -74,7 +74,7 @@
               Indonesia.
             </p>
             <p class="lead mb-0">
-              <a href="#" class="text-green fw-bold">Continue reading...</a>
+              <a href="#" class="text-purple fw-bold">Lanjutkan Membaca...</a>
             </p>
           </div>
         </div>
@@ -90,7 +90,7 @@
                 <div class="d-inline-block mb-2">
                   <span class="fw-normal badge bg-purple">Promo</span>
                 </div>
-                <h5 class="mb-0 fw-bold text-purple">
+                <h5 class="mb-0 fw-bold">
                   Spesial Bulan Ini - Diskon 20% untuk Semua Produk
                 </h5>
                 <div class="mb-1 text-muted fs-13 mt-2">
@@ -111,7 +111,7 @@
                 <div class="d-inline-block mb-2">
                   <span class="fw-normal badge bg-purple">Berita</span>
                 </div>
-                <h5 class="mb-0 fw-bold text-purple">
+                <h5 class="mb-0 fw-bold">
                   ETSA Berpartisipasi dalam Pameran Produk Kesehatan Nasional
                 </h5>
                 <div class="mb-1 text-muted fs-13 mt-2">
@@ -132,7 +132,7 @@
                 <div class="d-inline-block mb-2">
                   <span class="fw-normal badge bg-purple">Berita</span>
                 </div>
-                <h5 class="mb-0 fw-bold text-purple">
+                <h5 class="mb-0 fw-bold">
                   Susu Kambing ETSA Kini Tersedia di Marketplace Online
                 </h5>
                 <div class="mb-1 text-muted fs-13 mt-2">
@@ -160,42 +160,44 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <div class="mt-5 border-top pt-5 px-5 pb-2 bg-gradient-green">
+     <!-- Footer -->
+     <div class="mt-5 border-top pt-5 px-0 px-lg-5 pb-2 bg-light-gray">
       <footer class="text-white px-4">
         <div class="row container mx-auto">
-          <div class="col-6 col-md-3 mb-3">
-            <h5 class="badge bg-purple text-white rounded-pill fs-5">Etsa</h5>
-            <p class="text-white fs-13 mt-3">
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="badge bg-purple text-white rounded-pill fs-5 d-block d-lg-inline">
+              Etsa
+            </h5>
+            <p class="text-dark fs-13 mt-3">
               Dengan rasa yang lembut dan alami, susu kambing Etawamu cocok
               untuk semua usia. Rasakan sendiri manfaatnya dan jadilah bagian
               dari gaya hidup sehat bersama Etawamu!
             </p>
-            <p class="fw-bold text-purple"><i>#sehatbersamaetawamu</i></p>
+            <p class="fw-bold text-dark"><i>#sehatbersamaetawamu</i></p>
           </div>
 
-          <div class="col-6 col-md-2 offset-md-1 mb-3">
-            <h5 class="fs-6 text-purple fw-semibold">Informasi</h5>
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fs-6 text-dark fw-semibold">Informasi</h5>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
-            <h5 class="fs-6 text-purple fw-semibold">Layanan</h5>
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fs-6 text-dark fw-semibold">Layanan</h5>
           </div>
 
-          <div class="col-md-3 offset-md-1 mb-3">
-            <form class="d-flex flex-column gap-3">
-              <h5 class="fs-6 text-purple fw-semibold">Berlangganan</h5>
-              <p class="fs-13">
+          <div class="col-12 col-md-3 mb-3">
+            <form>
+              <h5 class="fs-6 text-dark fw-semibold">Berlangganan</h5>
+              <p class="fs-13 text-dark">
                 Dapatkan informasi dan promosi terbaik setiap bulannya
               </p>
               <div class="d-flex flex-column w-75 gap-2">
                 <input
                   id="newsletter1"
                   type="text"
-                  class="form-control border-0 rounded-0 fs-13 px-3 py-2"
+                  class="form-control rounded-0 fs-13 px-3 py-2"
                   placeholder="Masukkan Email*"
                 />
-                <button class="btn btn-purple rounded-pill mt-2" type="button">
+                <button class="btn bg-purple text-white rounded-pill mt-2">
                   Berlangganan
                 </button>
               </div>
@@ -203,11 +205,16 @@
           </div>
         </div>
 
-        <div class="pt-4 text-center border-top">
-          <p>© 2025 etsa.id</p>
+        <div class="pt-4 text-center d-block d-lg-flex justify-content-lg-between border-top">
+          <p class="text-dark">©copyright 2025 etsa.id . All right reserved</p>
+          <div class="fs-15 fw-bold">
+            <a href="" class="text-decoration-none text-dark me-4">Terms & Condition</a>
+            <a href="" class="text-decoration-none text-dark">Privacy policy</a>
+          </div>
         </div>
       </footer>
     </div>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
