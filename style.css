@@ -39,6 +39,10 @@ li {
   font-size: 15px;
 }
 
+body {
+  text-align: justify !important;
+}
+
 :root {
   --green: #8ead35;
   --blue-light: #06c4fa;
