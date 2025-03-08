@@ -34,10 +34,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  text-align: justify !important;
-}
-
 p,
 li {
   font-size: 15px;
@@ -120,7 +116,7 @@ li {
 }
 
 .hero-section {
-  background: url("images/new-hero.png");
+  background: url("images/hero-imagess.png");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -214,14 +210,28 @@ li {
   background-color: none !important;
 }
 
+.milk-image {
+    width: 440px;
+}
+
 @media only screen and (max-width: 768px) {
   .bg-sm-white {
     background-color: white !important;
   }
+
+  .milk-image {
+    text-align: center;
+    width: 240px;
+}
 }
 
 @media only screen and (max-width: 1200px) {
   .bg-sm-white {
     background-color: white !important;
   }
+
+  .milk-image {
+    text-align: center;
+    width: 240px;
+}
 }
