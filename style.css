@@ -223,6 +223,9 @@ li {
     text-align: center;
     width: 240px;
 }
+  .hero-paragraph {
+    margin-top: 140px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -234,4 +237,8 @@ li {
     text-align: center;
     width: 240px;
 }
+
+  .hero-paragraph {
+    margin-top: 140px;
+  }
 }
