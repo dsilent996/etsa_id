@@ -34,6 +34,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  text-align: justify;
+}
+
 p,
 li {
   font-size: 15px;
