@@ -88,9 +88,9 @@ li {
 
 .banner {
   position: relative;
-  background-image: url("images/milk-banner.png") !important;
+  background-image: url("images/banner-image.jpg");
   background-size: cover;
-  height: 260px;
+  height: 420px;
   padding: 40px 80px;
   overflow: hidden;
   display: flex;
@@ -98,18 +98,6 @@ li {
   justify-content: center;
   text-align: center;
   color: white;
-}
-
-.banner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--dark-purple);
-  opacity: 0.5; /* Overlay hitam transparan */
-  z-index: 1;
 }
 
 /* Agar teks berada di atas overlay */
