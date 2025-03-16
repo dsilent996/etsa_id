@@ -12,8 +12,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-white">
-    <nav class="navbar navbar-expand-lg navbar-white border-bottom py-3 fixed-top bg-white">
-      <div class="container-fluid px-5">
+    <nav class="navbar bg-blue">
+      <div
+        class="container d-flex justify-content-center justify-content-lg-between gap-3 py-1"
+      >
+        <p class="mb-0 text-white fs-13">
+          Jam Kerja : Senin - Sabtu 08.00 - 16.00
+        </p>
+        <div class="d-flex align-items-center gap-2">
+          <span class="text-white fs-13 me-2">Ikuti kami :</span>
+          <div class="d-flex gap-3">
+            <img src="logo/social/facebook.png" width="16" alt="" />
+            <img src="logo/social/twitter.png" width="16" alt="" />
+            <img src="logo/social/instagram.png" width="16" alt="" />
+            <img src="logo/social/linkedin.png" width="16" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav
+      class="navbar navbar-expand-lg navbar-white border-bottom py-3 bg-white"
+    >
+      <div class="container">
         <a class="navbar-brand" href="#">
           <img src="logo/logo-green-side.png" width="100" alt="" />
         </a>
@@ -29,14 +49,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                >Perusahaan</a
-              >
+              <a class="nav-link" href="#">Perusahaan</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="produk.html">Produk</a>
@@ -51,39 +69,51 @@
               <a class="nav-link" href="maklon.html">Info Maklon</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="kontak.html">Kontak Kami</a>
+              <a class="nav-link active" aria-current="page" href="kontak.html"
+                >Kontak Kami</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-<!-- 
-    <div class="container-fluid banner">
-      <h1 class="display-5 fw-bold">Kontak Kami</h1>
-    </div> -->
 
-    <div class="container mb-5" style="margin-top: 120px;"> 
+    <div class="container my-5">
       <div class="row">
         <div class="col-md-6">
           <div>
-            <small class="fw-bold text-purple">Alamat Kantor</small>
+            <small class="fw-bold text-blue">Alamat Kantor</small>
             <p class="fs-15">
               Druju RT 04 RW 24 Margodadi, Seyegan, Sleman, DI Yogyakarta
             </p>
           </div>
           <div>
-            <small class="fw-bold text-purple">Telepon</small>
+            <small class="fw-bold text-blue">Telepon</small>
             <p class="fs-15">+6274 288 5712</p>
           </div>
           <div>
-            <small class="fw-bold text-purple">Whatsapp</small>
+            <small class="fw-bold text-blue">Whatsapp</small>
             <p class="fs-15">+62852 9324 9435 / +62811 264 2181</p>
           </div>
+
+          <div class="container mt-4">
+            <div class="ratio ratio-16x9 rounded-2 shadow">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.593709617736!2d110.29681007506315!3d-7.726664792291532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af711f2e25243%3A0x915b1b2bcc103b68!2sPT%20ETSA%20BREGAS%20MAKMUR!5e0!3m2!1sid!2sid!4v1742130525124!5m2!1sid!2sid"
+                class="w-100 rounded-2"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6 mt-4 mt-lg-0">
           <div class="card card-body shadow rounded-4">
             <form action="" class="p-3">
-              <h3 class="text-purple fw-bold">Hubungi Kami</h3>
+              <h3 class="text-blue fw-bold">Hubungi Kami</h3>
               <p class="fs-13 mb-5">
                 Jika Anda ingin menghubungi kami secara langsung, silakan isi
                 formulir berikut, dan tim kami akan segera merespons pertanyaan
@@ -114,7 +144,7 @@
               </div>
               <div class="d-grid gap-2">
                 <button
-                  class="btn btn-lg bg-purple text-white rounded-pill d-block fs-15 fw-bold"
+                  class="btn btn-lg bg-blue text-white rounded-pill d-block fs-15 fw-bold"
                   type="button"
                 >
                   Kirim
@@ -126,60 +156,63 @@
       </div>
     </div>
 
-       <!-- Footer -->
-       <div class="mt-5 border-top pt-5 px-0 px-lg-5 pb-2 bg-light-gray">
-        <footer class="text-white px-4">
-          <div class="row container mx-auto">
-            <div class="col-12 col-md-3 mb-3">
-              <h5 class="badge bg-purple text-white rounded-pill fs-5 d-block d-lg-inline">
-                Etsa
-              </h5>
-              <p class="text-dark fs-13 mt-3">
-                Dengan rasa yang lembut dan alami, susu kambing Etawamu cocok
-                untuk semua usia. Rasakan sendiri manfaatnya dan jadilah bagian
-                dari gaya hidup sehat bersama Etawamu!
-              </p>
-              <p class="fw-bold text-dark"><i>#sehatbersamaetawamu</i></p>
-            </div>
-  
-            <div class="col-12 col-md-3 mb-3">
-              <h5 class="fs-6 text-dark fw-semibold">Informasi</h5>
-            </div>
-  
-            <div class="col-12 col-md-3 mb-3">
-              <h5 class="fs-6 text-dark fw-semibold">Layanan</h5>
-            </div>
-  
-            <div class="col-12 col-md-3 mb-3">
-              <form>
-                <h5 class="fs-6 text-dark fw-semibold">Berlangganan</h5>
-                <p class="fs-13 text-dark">
-                  Dapatkan informasi dan promosi terbaik setiap bulannya
-                </p>
-                <div class="d-flex flex-column w-75 gap-2">
-                  <input
-                    id="newsletter1"
-                    type="text"
-                    class="form-control rounded-0 fs-13 px-3 py-2"
-                    placeholder="Masukkan Email*"
-                  />
-                  <button class="btn bg-purple text-white rounded-pill mt-2">
-                    Berlangganan
-                  </button>
-                </div>
-              </form>
-            </div>
+    <!-- Footer -->
+    <div class="mt-5 border-top pt-5 px-0 px-lg-5 pb-2 bg-blue">
+      <footer class="text-white px-4">
+        <div class="row container-fluid py-4">
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fw-bold">PT. Etsa Bregas Makmur</h5>
+            <p class="mt-3">
+              Dengan rasa yang lembut dan alami, susu kambing Etawamu cocok
+              untuk semua usia. Rasakan sendiri manfaatnya dan jadilah bagian
+              dari gaya hidup sehat bersama Etawamu!
+            </p>
           </div>
-  
-          <div class="pt-4 text-center d-block d-lg-flex justify-content-lg-between border-top">
-            <p class="text-dark">©copyright 2025 etsa.id . All right reserved</p>
-            <div class="fs-15 fw-bold">
-              <a href="" class="text-decoration-none text-dark me-4">Terms & Condition</a>
-              <a href="" class="text-decoration-none text-dark">Privacy policy</a>
-            </div>
+
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fw-semibold half-border">Informasi</h5>
           </div>
-        </footer>
-      </div>
+
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fw-semibold half-border">Layanan</h5>
+          </div>
+
+          <div class="col-12 col-md-3 mb-3">
+            <h5 class="fw-semibold half-border mb-4">Berlangganan</h5>
+            <form>
+              <p>Dapatkan informasi dan promosi terbaik setiap bulannya</p>
+              <div class="d-flex flex-column gap-2">
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control rounded-2 fs-13 px-3 py-3"
+                  placeholder="Masukkan Email*"
+                />
+                <button
+                  class="btn btn-green text-white rounded-2 mt-2 fs-15 p-3"
+                >
+                  Berlangganan
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="pt-4 text-center d-block d-lg-flex justify-content-lg-between border-top"
+        >
+          <p class="">©copyright 2025 etsa.id . All right reserved</p>
+          <div class="fs-15 fw-bold">
+            <a href="" class="text-decoration-none text-white me-4"
+              >Terms & Condition</a
+            >
+            <a href="" class="text-decoration-none text-white"
+              >Privacy policy</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
