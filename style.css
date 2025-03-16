@@ -39,13 +39,11 @@ li {
   font-size: 15px;
 }
 
-body {
-  text-align: justify !important;
-}
-
 :root {
+  --blue: #123d8d;
+  --blue-light: #a7c5fb;
   --green: #8ead35;
-  --blue-light: #06c4fa;
+  --light-teal: #01d0d2;
   --purple: #4e2fda;
   --dark-purple: #361ea1;
   --light-gray: #f0f4f4;
@@ -59,6 +57,16 @@ body {
   background-color: #2c3c89 !important;
 }
 
+.btn-blue {
+  background-color: var(--blue) !important;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: var(--blue-light) !important;
+  color: var(--dark-purple);
+}
+
 .btn-purple {
   background-color: var(--purple) !important;
   color: white;
@@ -66,6 +74,16 @@ body {
 
 .btn-purple:hover {
   background-color: var(--dark-purple) !important;
+}
+
+.btn-outline-purple {
+  border: 2px solid var(--purple) !important;
+  background-color: white !important;
+}
+
+.badge-about {
+  width: 500px;
+  border-radius: 0 60px 0 60px;
 }
 
 .banner {
@@ -106,6 +124,23 @@ body {
   color: white;
 }
 
+.btn-green:hover {
+  background-color: #809e2d;
+  color: white;
+}
+
+.bg-running-product {
+  background-color: var(--blue-light) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-teal-light {
+  background-color: var(--light-teal);
+}
+
 .bg-gradient-green {
   background: rgb(120, 148, 39);
   background: linear-gradient(
@@ -119,12 +154,69 @@ body {
   background-color: var(--light-gray) !important;
 }
 
+.bg-light-blue {
+  background-color: var(--blue-light) !important;
+}
+
+.grayscale-img {
+  filter: grayscale(1) !important;
+}
+
 .hero-section {
-  background: url("images/hero-imagess.png");
+  /* background: url("images/bangunan.jpeg"); */
+  background-image: url("images/bangunan.jpeg");
+  background-size: cover;
   height: 100vh;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* margin: 16px !important; */
+  /* border-radius: 32px; */
+
+  /* Pusatkan konten di dalamnya */
+  display: flex;
+  justify-content: center; /* Pusatkan secara horizontal */
+  align-items: center; /* Pusatkan secara vertikal */
+  text-align: center; /* Pusatkan teks */
+}
+
+.hero-content {
+  color: white; /* Sesuaikan warna teks agar kontras dengan background */
+  max-width: 80%; /* Agar tidak terlalu lebar */
+}
+
+.image-products img {
+  width: 300px;
+  height: 400px;
+}
+
+.image-about {
+  border-radius: 60px 0 0 0;
+}
+
+.about-section {
+  /* background-color: var(--blue-light); */
+  width: 100%;
+  /* border-radius: 100% 100% 0 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.half-border {
+  display: inline-block;
+  position: relative;
+}
+
+.half-border::after {
+  content: "";
+  position: absolute;
+  left: 26%; /* Mulai dari tengah */
+  bottom: -5px; /* Jarak garis dari teks */
+  width: 50%; /* Panjang garis (setengah dari teks) */
+  height: 3px; /* Ketebalan garis */
+  background-color: white; /* Warna garis */
+  transform: translateX(-50%); /* Geser ke tengah */
 }
 
 .list-item {
@@ -142,12 +234,16 @@ body {
   color: var(--purple);
 }
 
+.text-blue {
+  color: var(--blue);
+}
+
 .text-green {
   color: var(--green);
 }
 
 .text-purple {
-  color: var(--purple);
+  color: var(--dark-purple);
 }
 
 .text-light-blue {
@@ -169,29 +265,30 @@ body {
 }
 
 .navbar-toggler {
-  background-color: var(--purple) !important;
+  /* background-color: var(--purple) !important; */
   color: white !important;
 }
 
 .nav-item {
-  margin-right: 48px;
+  margin-left: 42px;
 }
 
 .nav-item .nav-link {
-  color: var(--purple) !important;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   font-size: 15px;
   border-radius: 20px;
 }
 
 .nav-item .nav-link:hover {
-  background-color: var(--dark-purple) !important;
+  background-color: var(--blue) !important;
   color: white !important;
   border-radius: 20px;
 }
 
 .nav-item .nav-link.active {
   font-weight: 700;
+  color: var(--blue);
 }
 
 .bg-green {
@@ -215,7 +312,11 @@ body {
 }
 
 .milk-image {
-    width: 440px;
+  width: 440px;
+}
+
+.product-radius {
+  border-radius: 60px 20px 20px 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -226,9 +327,28 @@ body {
   .milk-image {
     text-align: center;
     width: 240px;
-}
+  }
+
+  .hero-section {
+    background: url("images/bangunan.jpeg");
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    margin: 0 !important;
+    border-radius: 0;
+  }
+
   .hero-paragraph {
     margin-top: 140px;
+  }
+
+  .about-section {
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .nav-item {
+    margin-left: 0px;
   }
 }
 
@@ -240,9 +360,27 @@ body {
   .milk-image {
     text-align: center;
     width: 240px;
-}
+  }
+
+  .hero-section {
+    background: url("images/bangunan.jpeg");
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    margin: 0 !important;
+    border-radius: 0;
+  }
 
   .hero-paragraph {
     margin-top: 140px;
+  }
+
+  .about-section {
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .nav-item {
+    margin-left: 0px;
   }
 }
