@@ -12,8 +12,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-white">
-    <nav class="navbar navbar-expand-lg navbar-white py-3 fixed-top bg-transparent bg-sm-white">
-      <div class="container-fluid px-5">
+    <nav class="navbar bg-blue">
+      <div
+        class="container d-flex justify-content-center justify-content-lg-between gap-3 py-1"
+      >
+        <p class="mb-0 text-white fs-13">
+          Jam Kerja : Senin - Sabtu 08.00 - 16.00
+        </p>
+        <div class="d-flex align-items-center gap-2">
+          <span class="text-white fs-13 me-2">Ikuti kami :</span>
+          <div class="d-flex gap-3">
+            <img src="logo/social/facebook.png" width="16" alt="" />
+            <img src="logo/social/twitter.png" width="16" alt="" />
+            <img src="logo/social/instagram.png" width="16" alt="" />
+            <img src="logo/social/linkedin.png" width="16" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-white py-4 bg-white">
+      <div class="container">
         <a class="navbar-brand" href="#">
           <img src="logo/logo-green-side.png" width="100" alt="" />
         </a>
@@ -29,184 +48,307 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-            <li class="nav-item"><a class="nav-link" href="profil.html">Perusahaan</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Produk</a></li>
-            <li class="nav-item"><a class="nav-link" href="karir.html">Karir</a></li>
-            <li class="nav-item"><a class="nav-link" href="berita.html">Berita</a></li>
-            <li class="nav-item"><a class="nav-link" href="maklon.html">Info Maklon</a></li>
-            <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak Kami</a></li>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profil.html">Perusahaan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="karir.html">Karir</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="maklon.html">Info Maklon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontak.html">Kontak Kami</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    
-     <!-- Hero Section -->
-    <div class="container-fluid hero-section d-flex align-items-center overflow-hidden">
-      <div class="hero-text text-white container d-flex justify-content-between flex-column flex-lg-row">
-        <div class="align-self-center hero-paragraph">
-          <h1 class="display-5 fw-bold text-purple text-start">Maklon Susu Etawa: <br> Brand Sendiri, Produksi Kami</h1>
-          <p class="fs-5 text-dark">Mudah, legal, & siap jual. Daftar sekarang!</p>
-            <a href="maklon.html" class="btn btn-purple py-3 ps-4 btn-lg mt-3 rounded-pill d-flex-inline align-items-center justify-content-between">
-            Informasi Maklon
-            <img src="svg/arrow-purple.svg" class="ms-3 bg-white p-2 rounded-pill" alt="">
-            </a>
-          
+
+    <div class="hero-section">
+      <div class="hero-content">
+        <p class="fs-5 text-uppercase mb-0">PT. Etsa Bregas Makmur</p>
+        <h2 class="display-1 fw-semibold">Great Nutrition for Life</h2>
+        <button class="btn btn-green rounded-pill mt-4 px-4 py-3">
+          Hubungi Kami
+          <img
+            src="svg/whatsapp.svg"
+            class="ms-2"
+            width="16"
+            alt=""
+            srcset=""
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <div class="d-flex mt-5 mt-lg-0">
+        <div class="d-none d-lg-inline">
+          <img
+            src="images/photo-3.JPG"
+            class="image-about"
+            height="600"
+            width="400"
+            alt=""
+            srcset=""
+          />
+          <div class="bg-blue p-3 badge-about">
+            <p class="fs-4 text-white fw-bold px-5 mb-0">
+              Kita Percaya pada <br />
+              kebahagiaan Klien
+            </p>
+          </div>
         </div>
-        <div class="text-center">
-          <img src="images/susu.png" class="milk-image" alt="">
+
+        <div class="d-flex flex-column">
+          <div>
+            <span class="text-warning fs-4">Tentang Kita</span>
+            <h2 class="fw-bold display-5 text-blue mb-2 mb-lg-4">
+              PT Etsa Bregas Makmur
+            </h2>
+            <p style="text-align: justify">
+              didirikan pada tahun 2022 dengan komitmen kuat untuk menjaga
+              kualitas dan kepuasan pelanggan. Pada awal berdirinya, perusahaan
+              ini menjadi pemegang lisensi Etawaku Platinum, sebuah merek susu
+              kambing bubuk yang dikenal luas dengan produk berkualitas tinggi.
+            </p>
+          </div>
+
+          <div class="row mt-2 mt-lg-5">
+            <div class="col-md-6 col-12">
+              <h2 class="fs-4 fw-semibold text-blue">Visi Kami</h2>
+              <div class="mt-3">
+                <img
+                  src="svg/check.svg"
+                  class="bg-green rounded-pill p-1"
+                  width="20"
+                  alt=""
+                />
+                <span class="mb-0 fs-15">
+                  Menjadi market leader dalam industri susu kambing
+                </span>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mt-3 mt-lg-0">
+              <h2 class="fs-4 fw-semibold text-blue">Misi Kami</h2>
+              <div class="d-flex flex-column gap-3 mt-3">
+                <div>
+                  <img
+                    src="svg/check.svg"
+                    class="bg-green rounded-pill p-1"
+                    width="20"
+                    alt=""
+                  />
+                  <span class="mb-0 fs-15"
+                    >Menghasilkan susu kambing berkualitas tinggi</span
+                  >
+                </div>
+                <div>
+                  <img
+                    src="svg/check.svg"
+                    class="bg-green rounded-pill p-1"
+                    width="20"
+                    alt=""
+                  />
+                  <span class="mb-0 fs-15">Berfokus pada inovasi produk</span>
+                </div>
+                <div>
+                  <img
+                    src="svg/check.svg"
+                    class="bg-green rounded-pill p-1"
+                    width="20"
+                    alt=""
+                  />
+                  <span class="mb-0 fs-15">Membangun kemitraan yang kuat</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <a
+                href="profil.html"
+                class="btn btn-green rounded-pill fw-bold px-4 py-2 mt-5"
+              >
+                Profil Perusahaan
+                <img src="svg/arrow.svg" alt="" srcset="" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    
-    <!-- Hero Section -->
-    <section id="hero">
-      <div class="container px-0 pe-lg-5 my-5">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 class="display-4 fw-semibold text-purple text-start">
-              Etsa, Great Nutrition for Life
-            </h1>
-            <p class="fs-6 fw-normal mt-3 lh-base">
-              Nikmati manfaat alami dari susu kambing ETSA, pilihan terbaik
-              untuk gaya hidup sehat. Diproses secara higienis dengan standar
-              kualitas tinggi, susu kambing ETSA kaya akan nutrisi yang
-              bermanfaat bagi tubuh.
-            </p>
 
-            <button
-              class="btn btn-purple text-white fw-semibold rounded-pill px-5 py-3 mt-4"
-            >
-              Selengkapnya
-            </button>
-          </div>
-          <div
-            class="col-lg-4 offset-lg-1 p-0 overflow-hidden rounded-3 shadow-lg d-none d-lg-block"
-          >
-            <img
-              class="rounded-lg-3 image-hero"
-              src="images/hero-image.jpg"
-              alt=""
-              width="480"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Hero Section -->
-
-    <section id="about">
-      <div class="container px-3 px-lg-5 my-5" style="margin: 120px auto !important;">
-        <div class="bg-purple py-5 rounded-3">
-          <h2 class="pb-2 fw-bold text-white text-center mb-5">
-            Manfaat Susu Etawamu
+    <div class="container-fluid p-4 p-lg-5 bg-blue mt-5 mt-lg-0">
+      <div class="row p-0 p-lg-5 mt-3">
+        <div class="col-12 col-md-4">
+          <h2 class="pb-2 fw-bold mb-5 display-5 text-white">
+            Manfaat Susu Etawa
           </h2>
-          <div
-            class="row row-cols-1 row-cols-md-3 justify-content-center text-center g-5 px-lg-5"
-          >
-            <div class="d-flex flex-column gap-4 align-items-center">
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="row g-3">
+            <!-- Satu -->
+            <div class="col-md-6 d-flex">
               <div
-                class="p-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-purple fs-4 rounded-pill border"
+                class="bg-light-blue p-4 w-100 h-100 rounded-3 d-flex flex-column"
               >
-                <img src="svg/nutrition.svg" alt="" />
+                <div>
+                  <img
+                    src="svg/nutrition.svg"
+                    class="p-3 bg-blue rounded-4"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-semibold my-2 fs-5">Kaya Nutrisi</p>
+                  <p>
+                    Susu kambing etawa mengandung vitamin A, B2, C, kalsium,
+                    kalium, magnesium, baik untuk kesehatan.
+                  </p>
+                </div>
               </div>
-              <p class="fw-semibold mb-0 text-white">Kaya Nutrisi</p>
             </div>
 
-            <div class="d-flex flex-column gap-4 align-items-center">
+            <!-- Dua -->
+            <div class="col-md-6 d-flex">
               <div
-                class="p-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-purple fs-4 rounded-pill border"
+                class="bg-light-blue p-4 w-100 h-100 rounded-3 d-flex flex-column"
               >
-                <img src="svg/diggest.svg" alt="" srcset="" />
+                <div>
+                  <img
+                    src="svg/diggest.svg"
+                    class="p-3 bg-blue rounded-4"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-semibold my-2 fs-5">Mudah Dicerna</p>
+                  <p>
+                    Susu kambing etawa lebih halus, cocok untuk yang memiliki
+                    masalah pencernaan atau intoleransi laktosa.
+                  </p>
+                </div>
               </div>
-              <p class="fw-semibold mb-0 text-white">Mudah Dicerna</p>
             </div>
 
-            <div class="d-flex flex-column gap-4 align-items-center">
+            <!-- Tiga -->
+            <div class="col-md-12 d-flex">
               <div
-                class="p-3 d-inline-flex align-items-center justify-content-center text-bg-primary bg-purple fs-4 rounded-pill border"
+                class="bg-light-blue p-4 w-100 h-100 rounded-3 d-flex flex-column"
               >
-                <img src="svg/healthy.svg" alt="" srcset="" />
+                <div>
+                  <img
+                    src="svg/healthy.svg"
+                    class="p-3 bg-blue rounded-4"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-grow-1">
+                  <p class="fw-semibold my-2 fs-5">
+                    Mendukung Kesehatan Tulang
+                  </p>
+                  <p>
+                    Kandungan kalsium yang tinggi dalam susu kambing etawa
+                    membantu menjaga kesehatan dan kekuatan tulang, serta
+                    mencegah osteoporosis.
+                  </p>
+                </div>
               </div>
-              <p class="fw-semibold mb-0 text-white">Mendukung Kesehatan</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="why">
-      <div class="container p-0 mt-5">
-        <div class="d-flex">
-          <div class="py-5">
-            <h2 class="fw-bold text-purple px-4 px-lg-5 text-start">Kenapa Susu Etawamu?</h2>
-            <div class="d-flex flex-column gap-3 mt-5 px-4 px-lg-5">
-              <div class="d-flex align-items-center gap-2">
-                <img src="svg/checklist.svg" width="24" alt="" />
-                <p class="mb-0 fs-15">
-                  Mengandung protein, kalsium, dan vitamin yang baik untuk
-                  tulang dan daya tahan tubuh.
-                </p>
-              </div>
-              <div class="d-flex align-items-center gap-2">
-                <img src="svg/checklist.svg" width="24" alt="" />
-                <p class="mb-0 fs-15">
-                  Lebih lembut di perut dan cocok untuk mereka yang sensitif
-                  terhadap susu sapi
-                </p>
-              </div>
-              <div class="d-flex align-items-center gap-2">
-                <img src="svg/checklist.svg" width="24" alt="" />
-                <p class="mb-0 fs-15">
-                  Dapat membantu meningkatkan energi dan menjaga kesehatan
-                  pencernaan
-                </p>
-              </div>
+    <div id="produk-kami" style="margin-top: 100px;">
+      <div class="container">
+        <h2 class="pb-2 fw-bold mb-2 mb-lg-5 display-5 text-blue text-center">
+          Produk Kami
+        </h2>
+        <div class="row g-4">
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-column shadow-sm p-5 h-100">
+              <img src="images/produk/etawamu.png" class="align-self-center" height="300" alt="">
+              <h5 class="fw-bold text-blue mt-3 fs-3 text-center text-lg-start">Susu Etawamu</h5>
+              <p class="text-muted text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
             </div>
           </div>
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-column shadow-sm p-5 h-100">
+              <img src="images/produk/etawaku.png" class="align-self-center" height="300" alt="">
+              <h5 class="fw-bold text-blue mt-3 fs-3 text-center text-lg-start">Susu Etawaku</h5>
+              <p class="text-muted text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="d-flex flex-column shadow-sm p-5 h-100">
+              <img src="images/produk/etawafor.png" class="align-self-center" height="300" alt="">
+              <h5 class="fw-bold text-blue mt-3 fs-3 text-center text-lg-start">Susu Etawafor</h5>
+              <p class="text-muted text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit....</p>
+            </div>
+          </div>
+          
         </div>
+
+        <div class="mt-5 d-flex justify-content-center">
+          <button class="btn btn-green fs-13 py-3 px-5 rounded-pill">
+            Produk Lainnya
+            <img src="svg/arrow.svg" alt="">
+          </button>
+        </div>
+
       </div>
-    </section>
+      
+    </div>
 
     <!-- Footer -->
-    <div class="mt-5 border-top pt-5 px-0 px-lg-5 pb-2 bg-light-gray">
+    <div class="mt-5 border-top pt-5 px-0 px-lg-5 pb-2 bg-blue">
       <footer class="text-white px-4">
-        <div class="row container mx-auto">
+        <div class="row container-fluid py-4">
           <div class="col-12 col-md-3 mb-3">
-            <h5 class="badge bg-purple text-white rounded-pill fs-5 d-block d-lg-inline">
-              Etsa
-            </h5>
-            <p class="text-dark fs-13 mt-3">
+            <h5 class="fw-bold">PT. Etsa Bregas Makmur</h5>
+            <p class="mt-3">
               Dengan rasa yang lembut dan alami, susu kambing Etawamu cocok
               untuk semua usia. Rasakan sendiri manfaatnya dan jadilah bagian
               dari gaya hidup sehat bersama Etawamu!
             </p>
-            <p class="fw-bold text-dark"><i>#sehatbersamaetawamu</i></p>
           </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <h5 class="fs-6 text-dark fw-semibold">Informasi</h5>
+            <h5 class="fw-semibold half-border">Informasi</h5>
           </div>
 
           <div class="col-12 col-md-3 mb-3">
-            <h5 class="fs-6 text-dark fw-semibold">Layanan</h5>
+            <h5 class="fw-semibold half-border">Layanan</h5>
           </div>
 
           <div class="col-12 col-md-3 mb-3">
+            <h5 class="fw-semibold half-border mb-4">Berlangganan</h5>
             <form>
-              <h5 class="fs-6 text-dark fw-semibold">Berlangganan</h5>
-              <p class="fs-13 text-dark">
+              <p>
                 Dapatkan informasi dan promosi terbaik setiap bulannya
               </p>
-              <div class="d-flex flex-column w-75 gap-2">
+              <div class="d-flex flex-column gap-2">
                 <input
                   id="newsletter1"
                   type="text"
-                  class="form-control rounded-0 fs-13 px-3 py-2"
+                  class="form-control rounded-2 fs-13 px-3 py-3"
                   placeholder="Masukkan Email*"
                 />
-                <button class="btn bg-purple text-white rounded-pill mt-2">
+                <button class="btn btn-green text-white rounded-2 mt-2 fs-15 p-3">
                   Berlangganan
                 </button>
               </div>
@@ -214,29 +356,35 @@
           </div>
         </div>
 
-        <div class="pt-4 text-center d-block d-lg-flex justify-content-lg-between border-top">
-          <p class="text-dark">©copyright 2025 etsa.id . All right reserved</p>
+        <div
+          class="pt-4 text-center d-block d-lg-flex justify-content-lg-between border-top"
+        >
+          <p class="">©copyright 2025 etsa.id . All right reserved</p>
           <div class="fs-15 fw-bold">
-            <a href="" class="text-decoration-none text-dark me-4">Terms & Condition</a>
-            <a href="" class="text-decoration-none text-dark">Privacy policy</a>
+            <a href="" class="text-decoration-none text-white me-4"
+              >Terms & Condition</a
+            >
+            <a href="" class="text-decoration-none text-white"
+              >Privacy policy</a
+            >
           </div>
         </div>
       </footer>
     </div>
 
-    <script>
-      window.addEventListener('scroll', function() {
-        let navbar = document.querySelector('.navbar')
+    <!-- <script>
+      window.addEventListener("scroll", function () {
+        let navbar = document.querySelector(".navbar");
 
         if (window.scrollY > 50) {
-          navbar.classList.add('scrolled', 'navbar-white')
-          navbar.classList.remove('navbar-dark', 'bg-transparent')
+          navbar.classList.add("scrolled", "navbar-white");
+          navbar.classList.remove("navbar-dark", "bg-white");
         } else {
-          navbar.classList.remove('scrolled', 'navbar-white')
-          navbar.classList.add('navbar-dark', 'bg-transparent')
+          navbar.classList.remove("scrolled", "navbar-white");
+          navbar.classList.add("navbar-dark", "bg-white");
         }
-      })
-    </script>
+      });
+    </script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
