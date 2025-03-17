@@ -49,6 +49,7 @@ li {
   --light-gray: #f0f4f4;
 }
 
+
 .about-section {
   /* background-color: var(--blue-light); */
   width: 100%;
@@ -155,6 +156,14 @@ li {
 
 .bg-light-blue {
   background-color: var(--blue-light) !important;
+}
+
+.checklist {
+  width: 16px;
+  padding: 3px;
+  margin: 0 6px 0 6px;
+  background-color: var(--blue);
+  border-radius: 100%;
 }
 
 .grayscale-img {
@@ -309,6 +318,12 @@ li {
 
 .product-radius {
   border-radius: 60px 20px 20px 20px;
+}
+
+#produk-kami {
+  /* margin-top: 100px; */
+  background-image: url(images/objects.png); 
+  background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
