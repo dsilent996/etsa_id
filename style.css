@@ -49,7 +49,6 @@ li {
   --light-gray: #f0f4f4;
 }
 
-
 .about-section {
   /* background-color: var(--blue-light); */
   width: 100%;
@@ -345,8 +344,86 @@ li {
 
 #produk-kami {
   /* margin-top: 100px; */
-  background-image: url(images/objects.png); 
+  background-image: url(images/objects.png);
   background-size: cover;
+}
+
+.maklon-container {
+  position: relative;
+}
+
+.maklon-step1 {
+  position: relative;
+  z-index: 9;
+}
+
+.maklon-step2 {
+  position: relative;
+  left: -64px;
+  z-index: 8;
+}
+
+.maklon-step3 {
+  position: relative;
+  left: -128px;
+  z-index: 7;
+}
+
+.maklon-step4 {
+  position: relative;
+  left: -200px;
+  z-index: 6;
+}
+
+.maklon-step5 {
+  position: relative;
+  left: -270px;
+  z-index: 5;
+}
+
+.maklon-step6 {
+  position: relative;
+  left: -340px;
+  z-index: 4;
+}
+
+.maklon-step7 {
+  position: relative;
+  left: -400px;
+  z-index: 3;
+}
+
+.maklon-step8 {
+  position: relative;
+  left: -470px;
+  z-index: 2;
+}
+
+.maklon-step9 {
+  position: relative;
+  left: -530px;
+  z-index: 1;
+}
+
+.maklon-img {
+  cursor: pointer;
+}
+
+#desc-box {
+  left: 0;
+  margin-top: 20px;
+  top: 50%;
+  background: var(--blue-light);
+  color: var(--blue);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: normal;
+  display: none;
+}
+
+.desc {
+  display: none; /* Sembunyikan deskripsi dalam container */
 }
 
 @media only screen and (max-width: 768px) {
@@ -384,6 +461,51 @@ li {
   .navbar-brand img {
     width: 100px !important;
   }
+
+  .maklon-step1 {
+    width: 120px;
+  }
+
+  .maklon-step2 {
+    width: 120px;
+    left: 0 !important;
+  }
+
+  .maklon-step3 {
+    left: 0 !important;
+  }
+
+  .maklon-step4 {
+    left: 0 !important;
+  }
+
+  .maklon-step5 {
+    left: 0 !important;
+  }
+
+  .maklon-step6 {
+    left: 0 !important;
+  }
+
+  .maklon-step7 {
+    left: 0 !important;
+  }
+
+  .maklon-step8 {
+    left: 0 !important;
+  }
+
+  .maklon-step9 {
+    left: 0 !important;
+  }
+
+  #desc-box {
+    display: block;
+  }
+
+  .desc {
+    display: block; /* Sembunyikan deskripsi dalam container */
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -420,5 +542,57 @@ li {
 
   .navbar-brand img {
     width: 100px !important;
+  }
+
+  .maklon-step1 {
+    width: 120px;
+  }
+
+  .maklon-step2 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step3 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step4 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step5 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step6 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step7 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step8 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  .maklon-step9 {
+    left: 0 !important;
+     width: 120px;
+  }
+
+  #desc-box {
+    display: block;
+  }
+
+  .desc {
+    display: block; /* Sembunyikan deskripsi dalam container */
   }
 }
